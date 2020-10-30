@@ -1,0 +1,59 @@
+/**
+ * @name Frosted Glass
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @authorId 174868361040232448
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
+ * @website https://gibbu.me
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/eptKCno.gif');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+  --gradient-primary: 162,0,0;
+  --gradient-secondary: 255,0,0;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --link-colour: #00b0f4;
+  --gradient-direction: 320deg;
+  --tint-colour: 233,0,0;
+  --tint-brightness: 0.12;
+  --font: 'Whitney';
+  --window-padding: 20px;
+  --window-roundness: 10px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --rs-small-spacing: 1px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+}
